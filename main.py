@@ -1,7 +1,7 @@
 import pygame
 import sys
 import random
-
+# https://github.com/spsokhi/PlatformerGame-Py.git
 # Initialize Pygame
 pygame.init()
 
@@ -15,7 +15,7 @@ WHITE = (255, 255, 255)
 
 # Set up the display
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Infinite Platformer")
+pygame.display.set_caption("PlatformerGame")
 
 # Clock for controlling the frame rate
 clock = pygame.time.Clock()
